@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            attr getter method
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function()
+            {
+                 var title = $("em").attr("title");//getter
+                 $("#divid").text(title);
+           });
+        </script>
+        
+    </head>
+    <body>
+        <div>
+          <em title="Learn Jquery">INTRODUCTION</em>
+          <p id="myId">First program</p>
+          <div id="divid"></div>
+        </div>
+        
+        
+    </body>
+</html>
